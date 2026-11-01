@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>高清图库 · 织金洞世界地质公园</title>
+  <meta name="description" content="织金洞典型溶洞景观高清图片集中展示，支持分类筛选与点击放大预览。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header site-header--solid">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="织金洞世界地质公园首页">
+        <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <path d="M5 35V20C5 11.7 11.7 5 20 5s15 6.7 15 15v15" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M12.5 35V21.5c0-4.1 3.4-7.5 7.5-7.5s7.5 3.4 7.5 7.5V35" stroke="currentColor" stroke-width="1.3" opacity=".55"/>
+          <path d="M20 14v21M5 27h7.5M27.5 27H35" stroke="currentColor" stroke-width="1.3" opacity=".3"/>
+        </svg>
+        <span>
+          <span class="brand__name">织金洞</span>
+          <span class="brand__sub">Zhijin Cave · Global Geopark</span>
+        </span>
+      </a>
+      <nav class="nav" id="site-nav" aria-label="主导航">
+        <a href="index.html">首页</a>
+        <a href="overview.html">溶洞概况</a>
+        <a href="scenery.html">景点详解</a>
+        <a href="gallery.html" aria-current="page">高清图库</a>
+        <a href="guide.html">游览攻略</a>
+      </nav>
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main class="page-main">
+    <div class="page-head">
+      <div class="container">
+        <nav class="breadcrumb" aria-label="面包屑">
+          <a href="index.html">首页</a><span>/</span><span>高清图库</span>
+        </nav>
+        <h1>高清图库<em>Gallery · Click to Enlarge</em></h1>
+        <div class="page-head__body">
+          <p class="lead">洞厅的尺度、石笋的轮廓、石幔的褶皱与卷曲石的偏转。十四幅影像，按类型归档。点击任意图片，可进入全屏预览。</p>
+          <span class="page-head__num">03 / 04</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container gallery-wrap">
+      <div class="filters reveal" data-filter-group="#gallery-grid" role="group" aria-label="按景观类型筛选图库">
+        <button class="filter is-active" type="button" data-filter="all" aria-pressed="true">全部影像</button>
+        <button class="filter" type="button" data-filter="hall" aria-pressed="false">洞厅与洞内</button>
+        <button class="filter" type="button" data-filter="formation" aria-pressed="false">钟乳石与石笋</button>
+        <button class="filter" type="button" data-filter="drapery" aria-pressed="false">石幔与卷曲石</button>
+        <button class="filter" type="button" data-filter="outside" aria-pressed="false">洞外山水</button>
+      </div>
+
+      <div class="gallery-hint reveal">
+        <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 9V4h5M20 15v5h-5M15 4h5v5M9 20H4v-5" stroke="currentColor" stroke-width="1.5"/></svg>
+        <span>点击图片可放大预览 · 支持键盘 ← → 切换 · Esc 关闭</span>
+      </div>
+
+      <div class="gallery" id="gallery-grid" data-lightbox-gallery>
+
+        <figure class="g-item reveal" data-cat="hall" tabindex="0" role="button" aria-label="放大了看：广寒宫" data-title="广寒宫" data-meta="洞厅 · Moon Palace">
+          <div class="g-item__media">
+            <img src="assets/images/guanghan.jpg" alt="广寒宫洞厅" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">广寒宫<span>洞厅</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="hall" tabindex="0" role="button" aria-label="放大了看：灵霄殿" data-title="灵霄殿" data-meta="洞厅 · Celestial Hall">
+          <div class="g-item__media">
+            <img src="assets/images/lingxiao.jpg" alt="灵霄殿高大的石柱" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">灵霄殿<span>洞厅</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="formation" tabindex="0" role="button" aria-label="放大了看：银雨树" data-title="银雨树" data-meta="石笋 · Silver Rain Tree">
+          <div class="g-item__media">
+            <img src="assets/images/yinyu.jpg" alt="银雨树石笋" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">银雨树<span>石笋</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="formation" tabindex="0" role="button" aria-label="放大了看：霸王盔" data-title="霸王盔" data-meta="石笋 · Overlord's Helmet">
+          <div class="g-item__media">
+            <img src="assets/images/bawang.jpg" alt="霸王盔石笋" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">霸王盔<span>石笋</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="formation" tabindex="0" role="button" aria-label="放大了看：寂静群山" data-title="寂静群山" data-meta="石笋群 · Silent Mountains">
+          <div class="g-item__media">
+            <img src="assets/images/shiwandashan.jpg" alt="寂静群山石笋群" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">寂静群山<span>石笋群</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="drapery" tabindex="0" role="button" aria-label="放大了看：石幔" data-title="石幔" data-meta="沉积细节 · Stone Drapery">
+          <div class="g-item__media">
+            <img src="assets/images/shiman.jpg" alt="半透明石幔" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">石幔<span>沉积细节</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="drapery" tabindex="0" role="button" aria-label="放大了看：卷曲石" data-title="卷曲石" data-meta="沉积细节 · Helictite">
+          <div class="g-item__media">
+            <img src="assets/images/juanqu.jpg" alt="卷曲石微距" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">卷曲石<span>沉积细节</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="formation" tabindex="0" role="button" aria-label="放大了看：洞顶钟乳石群" data-title="洞顶钟乳石群" data-meta="钟乳石 · Stalactites">
+          <div class="g-item__media">
+            <img src="assets/images/straw.jpg" alt="洞顶密集钟乳石" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">洞顶钟乳石群<span>钟乳石</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="hall" tabindex="0" role="button" aria-label="放大了看：塔松厅" data-title="塔松厅" data-meta="洞厅 · Pagoda Pine Hall">
+          <div class="g-item__media">
+            <img src="assets/images/tasong.jpg" alt="塔松厅层叠石笋" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">塔松厅<span>洞厅</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="hall" tabindex="0" role="button" aria-label="放大了看：迎宾厅" data-title="迎宾厅" data-meta="洞厅 · Welcome Hall">
+          <div class="g-item__media">
+            <img src="assets/images/yingbin.jpg" alt="迎宾厅洞口光线" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">迎宾厅<span>洞厅</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="hall" tabindex="0" role="button" aria-label="放大了看：地下河" data-title="地下河与钙华池" data-meta="洞内水文 · Underground River">
+          <div class="g-item__media">
+            <img src="assets/images/river.jpg" alt="洞内地下河" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">地下河<span>洞内水文</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="outside" tabindex="0" role="button" aria-label="放大了看：绮结河峡谷" data-title="绮结河峡谷" data-meta="洞外山水 · Karst Gorge">
+          <div class="g-item__media">
+            <img src="assets/images/gorge.jpg" alt="绮结河峡谷" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">绮结河峡谷<span>洞外山水</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="outside" tabindex="0" role="button" aria-label="放大了看：喀斯特峰丛" data-title="喀斯特峰丛" data-meta="洞外山水 · Karst Peaks">
+          <div class="g-item__media">
+            <img src="assets/images/hero3.jpg" alt="喀斯特峰丛与峡谷" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">喀斯特峰丛<span>洞外山水</span></figcaption>
+        </figure>
+
+        <figure class="g-item reveal" data-cat="outside" tabindex="0" role="button" aria-label="放大了看：山间苗寨" data-title="山间苗寨" data-meta="洞外人文 · Miao Village">
+          <div class="g-item__media">
+            <img src="assets/images/village.jpg" alt="喀斯特山间的苗寨" loading="lazy">
+          </div>
+          <figcaption class="g-item__cap">山间苗寨<span>洞外人文</span></figcaption>
+        </figure>
+
+      </div>
+
+      <section class="section" style="padding-bottom:0;">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">拍摄提示</span>
+            <h2>在暗处，怎么拍得更好</h2>
+          </div>
+          <p>洞内光线复杂，保护景观永远优先于照片效果。</p>
+        </div>
+        <div class="criteria reveal">
+          <div class="criteria__item">
+            <div class="criteria__num">01</div>
+            <h3>关闭闪光灯</h3>
+            <p>闪光会惊扰洞穴生物，也会加速部分藻类生长。请使用现场灯光或提高相机感光度。</p>
+          </div>
+          <div class="criteria__item">
+            <div class="criteria__num">02</div>
+            <h3>稳住相机</h3>
+            <p>弱光环境容易糊片。可倚靠栏杆保持稳定，或使用小尺寸三脚架，但不要阻塞游线。</p>
+          </div>
+          <div class="criteria__item">
+            <div class="criteria__num">03</div>
+            <h3>留出尺度</h3>
+            <p>在画面边缘带入栏杆、人物或步道，能更直观地表现洞厅与石柱的真实体量。</p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <section class="cta-band" style="margin-top:clamp(56px,8vw,96px);">
+      <div class="container cta-band__inner">
+        <div class="reveal">
+          <h2>看完图片，<br>该安排一次真正的进入了。</h2>
+          <p>开放时间、交通与三条推荐路线，一次讲清楚。</p>
+        </div>
+        <div class="reveal" data-delay="1">
+          <a class="btn btn--solid" href="guide.html">查看游览攻略
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <path d="M5 35V20C5 11.7 11.7 5 20 5s15 6.7 15 15v15" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M12.5 35V21.5c0-4.1 3.4-7.5 7.5-7.5s7.5 3.4 7.5 7.5V35" stroke="currentColor" stroke-width="1.3" opacity=".55"/>
+              <path d="M20 14v21M5 27h7.5M27.5 27H35" stroke="currentColor" stroke-width="1.3" opacity=".3"/>
+            </svg>
+            <span>
+              <span class="brand__name">织金洞</span>
+              <span class="brand__sub">Zhijin Cave · Global Geopark</span>
+            </span>
+          </a>
+          <p>以溶洞为课堂，把地质遗产、科学知识与旅行体验放在同一个页面里。愿每一次进入洞穴，都能带走一点对时间的理解。</p>
+        </div>
+        <div class="footer__col">
+          <h4>栏目</h4>
+          <a href="index.html">首页</a>
+          <a href="overview.html">溶洞概况</a>
+          <a href="scenery.html">景点详解</a>
+          <a href="gallery.html">高清图库</a>
+          <a href="guide.html">游览攻略</a>
+        </div>
+        <div class="footer__col">
+          <h4>影像分类</h4>
+          <a href="scenery.html#guanghan">洞厅景观</a>
+          <a href="scenery.html#yinyu">石笋与钟乳石</a>
+          <a href="scenery.html#shiman">石幔细节</a>
+          <a href="scenery.html#juanqu">卷曲石</a>
+          <a href="scenery.html#forms">沉积形态图解</a>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> 织金洞世界地质公园科普宣传站 · 静态网页课程设计</span>
+        <span>本页图片为织金洞实景照片，版权归原作者所有</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- 灯箱 -->
+  <div class="lightbox" data-lightbox role="dialog" aria-modal="true" aria-label="图片放大预览" aria-hidden="true">
+    <button class="lightbox__close" type="button" aria-label="关闭预览">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18" stroke="currentColor" stroke-width="1.5"/></svg>
+    </button>
+    <div class="lightbox__stage">
+      <img class="lightbox__img" alt="">
+    </div>
+    <div class="lightbox__bar">
+      <div class="lightbox__cap">
+        <span class="lightbox__title">广寒宫</span>
+        <span class="lightbox__meta">洞厅 · Moon Palace</span>
+      </div>
+      <div class="lightbox__nav">
+        <button class="lightbox__btn lightbox__prev" type="button" aria-label="上一张">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 12H5M11 18l-6-6 6-6" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+        <div class="lightbox__count"><span class="lightbox__current">01</span> / <span class="lightbox__total">14</span></div>
+        <button class="lightbox__btn lightbox__next" type="button" aria-label="下一张">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+        </button>
+      </div>
+    </div>
+  </div>
+
+  <button class="to-top" type="button" aria-label="返回顶部" data-to-top>
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
