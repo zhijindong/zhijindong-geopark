@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>织金洞世界地质公园 · 地下天宫</title>
+  <meta name="description" content="织金洞世界地质公园科普宣传网站：了解溶洞地理位置、发展历程、世界地质公园认定，逐一详解典型景观，并提供高清图库与游览攻略。">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- 顶部导航 -->
+  <header class="site-header header--overlay">
+    <div class="container site-header__inner">
+      <a class="brand" href="index.html" aria-label="织金洞世界地质公园首页">
+        <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+          <path d="M5 35V20C5 11.7 11.7 5 20 5s15 6.7 15 15v15" stroke="currentColor" stroke-width="1.3"/>
+          <path d="M12.5 35V21.5c0-4.1 3.4-7.5 7.5-7.5s7.5 3.4 7.5 7.5V35" stroke="currentColor" stroke-width="1.3" opacity=".55"/>
+          <path d="M20 14v21M5 27h7.5M27.5 27H35" stroke="currentColor" stroke-width="1.3" opacity=".3"/>
+        </svg>
+        <span>
+          <span class="brand__name">织金洞</span>
+          <span class="brand__sub">Zhijin Cave · Global Geopark</span>
+        </span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="主导航">
+        <a href="index.html" aria-current="page">首页</a>
+        <a href="overview.html">溶洞概况</a>
+        <a href="scenery.html">景点详解</a>
+        <a href="gallery.html">高清图库</a>
+        <a href="guide.html">游览攻略</a>
+      </nav>
+
+      <button class="nav-toggle" type="button" aria-label="打开菜单" aria-expanded="false" aria-controls="site-nav">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- 首屏轮播 -->
+    <section class="hero" data-carousel aria-roledescription="轮播" aria-label="织金洞景观轮播">
+      <div class="hero__slides">
+
+        <article class="hero__slide is-active">
+          <img src="assets/images/hero1.jpg" alt="织金洞宏大的地下洞厅与石柱" fetchpriority="high">
+          <div class="hero__content">
+            <div class="container">
+              <div class="hero__text">
+                <span class="eyebrow eyebrow--plain hero__eyebrow">UNESCO Global Geopark · 贵州织金</span>
+                <h1>织金洞<small>THE PALACE BENEATH THE EARTH</small></h1>
+                <p class="hero__desc">发育于喀斯特高原腹地的巨型溶洞，以宏大的洞厅、密集的流水沉积物与罕见的卷曲石闻名，被誉为"地下天宫"。</p>
+                <div class="hero__actions">
+                  <a class="btn btn--light" href="scenery.html">探索洞中景观
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  </a>
+                  <a class="btn btn--light" href="guide.html">计划你的行程</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero__slide">
+          <img src="assets/images/hero2.jpg" alt="灯光下的钟乳石与石笋林" loading="lazy">
+          <div class="hero__content">
+            <div class="container">
+              <div class="hero__text">
+                <span class="eyebrow eyebrow--plain hero__eyebrow">Speleothem · 洞穴沉积物</span>
+                <h1>滴水成石<small>TIME IN STONE</small></h1>
+                <p class="hero__desc">一滴水用一千年落下，一根石笋用十万年长成。在织金洞，时间不再是抽象的概念，而是可以看见、可以触摸的形状。</p>
+                <div class="hero__actions">
+                  <a class="btn btn--light" href="scenery.html#forms">读懂沉积形态
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="hero__slide">
+          <img src="assets/images/hero3.jpg" alt="贵州喀斯特峰丛与峡谷" loading="lazy">
+          <div class="hero__content">
+            <div class="container">
+              <div class="hero__text">
+                <span class="eyebrow eyebrow--plain hero__eyebrow">Karst Landscape · 喀斯特地貌</span>
+                <h1>山河入洞<small>A COMPLETE KARST STORY</small></h1>
+                <p class="hero__desc">从地表峡谷到地下暗河，织金洞世界地质公园把喀斯特的完整叙事，写进 170 平方千米的山水之间。</p>
+                <div class="hero__actions">
+                  <a class="btn btn--light" href="overview.html">走进世界地质公园
+                    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+
+      </div>
+
+      <div class="hero__ui container">
+        <div class="hero__dots" aria-label="轮播分页"></div>
+        <div class="hero__arrows">
+          <div class="hero__count"><span class="hero__current">01</span> / 03</div>
+          <button class="hero__arrow hero__arrow--prev" type="button" aria-label="上一张">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M20 12H5M11 18l-6-6 6-6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+          <button class="hero__arrow hero__arrow--next" type="button" aria-label="下一张">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- 网站简介 -->
+    <section class="section">
+      <div class="container intro__grid">
+        <aside class="intro__aside reveal">
+          <span class="eyebrow">关于织金洞</span>
+        </aside>
+
+        <div class="intro__main">
+          <h2 class="reveal">在贵州高原的腹地，<br>藏着一座用数十万年雕成的宫殿。</h2>
+          <p class="reveal" data-delay="1">织金洞位于贵州省毕节市织金县官寨苗族乡，地处乌江上游绮结河峡谷南岸。它发育于下三叠统厚层碳酸盐岩之中，是典型的喀斯特溶洞，也是织金洞世界地质公园的核心园区。</p>
+          <p class="reveal" data-delay="2">洞内已探明长度 12.1 千米，最宽处 175 米，最高处 150 米。巨大的洞厅中，石笋、石柱、石幔、石旗与卷曲石层层叠叠，构成一座天然的地质博物馆。2015 年，织金洞以"世界地质公园"的身份，被更多人认识。</p>
+
+          <div class="stats reveal" data-delay="2">
+            <div class="stat">
+              <div class="stat__num"><span data-count="12.1" data-decimals="1">12.1</span><em>km</em></div>
+              <span class="stat__label">已探明洞长</span>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="175">175</span><em>m</em></div>
+              <span class="stat__label">最宽洞厅</span>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="150">150</span><em>m</em></div>
+              <span class="stat__label">最高穹顶</span>
+            </div>
+            <div class="stat">
+              <div class="stat__num"><span data-count="170">170</span><em>km²</em></div>
+              <span class="stat__label">公园总面积</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 导航入口 -->
+    <section class="section section--soft">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">站点导览</span>
+            <h2>四道门，走进地下天宫</h2>
+          </div>
+          <p>从地理格局到单体景观，从影像记录到实地行程，按你的兴趣选择一条路径。</p>
+        </div>
+
+        <div class="entries">
+          <a class="entry reveal" href="overview.html">
+            <div class="entry__media">
+              <img src="assets/images/river.jpg" alt="溶洞中的地下河" loading="lazy">
+              <span class="entry__index">01</span>
+            </div>
+            <div class="entry__title">溶洞概况
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <p>地理位置 · 发展历程 · 世界地质公园</p>
+          </a>
+
+          <a class="entry reveal" data-delay="1" href="scenery.html">
+            <div class="entry__media">
+              <img src="assets/images/yinyu.jpg" alt="银雨树石笋" loading="lazy">
+              <span class="entry__index">02</span>
+            </div>
+            <div class="entry__title">景点详解
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <p>洞厅 · 钟乳石 · 石笋 · 石幔</p>
+          </a>
+
+          <a class="entry reveal" data-delay="2" href="gallery.html">
+            <div class="entry__media">
+              <img src="assets/images/shiman.jpg" alt="石幔细节" loading="lazy">
+              <span class="entry__index">03</span>
+            </div>
+            <div class="entry__title">高清图库
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <p>典型景观 · 高清影像 · 点击放大</p>
+          </a>
+
+          <a class="entry reveal" data-delay="3" href="guide.html">
+            <div class="entry__media">
+              <img src="assets/images/gorge.jpg" alt="织金洞周边的喀斯特峡谷" loading="lazy">
+              <span class="entry__index">04</span>
+            </div>
+            <div class="entry__title">游览攻略
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+            </div>
+            <p>开放时间 · 交通 · 路线 · 注意事项</p>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 引言 -->
+    <section class="quote">
+      <div class="container reveal">
+        <span class="quote__mark">“</span>
+        <blockquote>黄山归来不看岳，<br>织金洞外无洞天。</blockquote>
+        <cite>—— 作家冯牧游览织金洞后题写</cite>
+      </div>
+    </section>
+
+    <!-- 科普资讯 -->
+    <section class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <div>
+            <span class="eyebrow">科普资讯</span>
+            <h2>把地质知识，讲成故事</h2>
+          </div>
+          <a class="link-arrow" href="overview.html">走进溶洞概况</a>
+        </div>
+
+        <div class="news">
+          <article class="news__item reveal">
+            <div class="news__meta"><span>地质科普</span><time datetime="2026-09-18">2026.09.18</time></div>
+            <h3>一滴水，如何长成一座"石林"？</h3>
+            <p>从碳酸钙的溶解到沉积，钟乳石、石笋与石柱之间，藏着一条需要上万年的生长链。</p>
+            <a class="link-arrow" href="scenery.html#forms">阅读</a>
+          </article>
+
+          <article class="news__item reveal" data-delay="1">
+            <div class="news__meta"><span>世界地质公园</span><time datetime="2026-08-02">2026.08.02</time></div>
+            <h3>什么是 UNESCO 世界地质公园？</h3>
+            <p>不是所有漂亮的溶洞都能获得这个称号。地质遗产、科普教育与社区发展，缺一不可。</p>
+            <a class="link-arrow" href="overview.html#geopark">阅读</a>
+          </article>
+
+          <article class="news__item reveal" data-delay="2">
+            <div class="news__meta"><span>洞穴生物</span><time datetime="2026-07-11">2026.07.11</time></div>
+            <h3>黑暗里的居民：洞穴生物如何生存</h3>
+            <p>没有阳光，食物稀少。盲鱼、洞穴马陆与蜘蛛，在永恒的黑暗里演化出另一套生存法则。</p>
+            <a class="link-arrow" href="overview.html#cave">阅读</a>
+          </article>
+
+          <article class="news__item reveal" data-delay="3">
+            <div class="news__meta"><span>游览观察</span><time datetime="2026-06-05">2026.06.05</time></div>
+            <h3>看见时间的六个细节</h3>
+            <p>石幔的褶皱、石旗的偏转、卷曲石的横向生长——观察沉积物，就是阅读一部时间之书。</p>
+            <a class="link-arrow" href="gallery.html">阅读</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta-band">
+      <div class="container cta-band__inner">
+        <div class="reveal">
+          <h2>下一站，去地下看看<br>时间留下的形状。</h2>
+          <p>开放时间、交通方式与三条推荐路线，已为你整理好。</p>
+        </div>
+        <div class="reveal" data-delay="1">
+          <a class="btn btn--solid" href="guide.html">查看游览攻略
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M4 12h15M13 6l6 6-6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- 页脚 -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer__grid">
+        <div class="footer__brand">
+          <a class="brand" href="index.html">
+            <svg class="brand__mark" viewBox="0 0 40 40" fill="none" aria-hidden="true">
+              <path d="M5 35V20C5 11.7 11.7 5 20 5s15 6.7 15 15v15" stroke="currentColor" stroke-width="1.3"/>
+              <path d="M12.5 35V21.5c0-4.1 3.4-7.5 7.5-7.5s7.5 3.4 7.5 7.5V35" stroke="currentColor" stroke-width="1.3" opacity=".55"/>
+              <path d="M20 14v21M5 27h7.5M27.5 27H35" stroke="currentColor" stroke-width="1.3" opacity=".3"/>
+            </svg>
+            <span>
+              <span class="brand__name">织金洞</span>
+              <span class="brand__sub">Zhijin Cave · Global Geopark</span>
+            </span>
+          </a>
+          <p>以溶洞为课堂，把地质遗产、科学知识与旅行体验放在同一个页面里。愿每一次进入洞穴，都能带走一点对时间的理解。</p>
+        </div>
+
+        <div class="footer__col">
+          <h4>栏目</h4>
+          <a href="index.html">首页</a>
+          <a href="overview.html">溶洞概况</a>
+          <a href="scenery.html">景点详解</a>
+          <a href="gallery.html">高清图库</a>
+          <a href="guide.html">游览攻略</a>
+        </div>
+
+        <div class="footer__col">
+          <h4>参观信息</h4>
+          <p>贵州省毕节市织金县官寨苗族乡</p>
+          <p>开放时间 08:30 – 17:00</p>
+          <p>洞内恒温 16–18℃，建议携带外套</p>
+          <p>门票与开放时间以景区官方公告为准</p>
+        </div>
+      </div>
+
+      <div class="footer__bottom">
+        <span>© <span data-year>2026</span> 织金洞世界地质公园科普宣传站 · 静态网页课程设计</span>
+        <span>本页图片为织金洞实景照片，版权归原作者所有</span>
+      </div>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" aria-label="返回顶部" data-to-top>
+    <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" stroke="currentColor" stroke-width="1.5"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
